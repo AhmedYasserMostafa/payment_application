@@ -1,0 +1,11 @@
+﻿  server.c
+E:\embedded system\egfwd\projects\Payment_Application\Payment_Application\server.c(60,33): warning C4133: '=': incompatible types - from 'ST_cardData_t *' to 'ST_transaction_t *'
+E:\embedded system\egfwd\projects\Payment_Application\Payment_Application\server.c(67,5): warning C4013: 'strcpy' undefined; assuming extern returning int
+E:\embedded system\egfwd\projects\Payment_Application\Payment_Application\server.c(87,59): warning C4047: '!=': 'uint32_t' differs in levels of indirection from 'void *'
+E:\embedded system\egfwd\projects\Payment_Application\Payment_Application\server.c(104,34): warning C4047: 'function': 'ST_cardData_t *' differs in levels of indirection from 'ST_cardData_t **'
+E:\embedded system\egfwd\projects\Payment_Application\Payment_Application\server.c(104,25): warning C4024: 'isValidAccount': different types for formal and actual parameter 1
+E:\embedded system\egfwd\projects\Payment_Application\Payment_Application\server.c(109,43): warning C4047: 'function': 'ST_terminalData_t *' differs in levels of indirection from 'ST_terminalData_t **'
+E:\embedded system\egfwd\projects\Payment_Application\Payment_Application\server.c(109,34): warning C4024: 'isAmountAvailable': different types for formal and actual parameter 1
+E:\embedded system\egfwd\projects\Payment_Application\Payment_Application\server.c(114,41): warning C4047: 'function': 'ST_transaction_t *' differs in levels of indirection from 'ST_transaction_t **'
+E:\embedded system\egfwd\projects\Payment_Application\Payment_Application\server.c(114,31): warning C4024: 'saveTransaction': different types for formal and actual parameter 1
+  Payment_Application.vcxproj -> E:\embedded system\egfwd\projects\Payment_Application\x64\Debug\Payment_Application.exe
